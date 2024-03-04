@@ -1,0 +1,49 @@
+/* Style the header and footer with a background color of #cad1d8 and font size of 35px. */
+header, footer {
+    background-color: #cad1d8;
+    font-size: 35px;
+}
+
+/* Style all of the list items to have a border and be inline. */
+li {
+    border: 1px solid black;
+    display: inline-block;
+    /* display: inline */
+}
+
+/* Style the list items in the footer to have a 100px margin on one side. (Must match the  image below.) */
+footer li {
+    margin-left: 100px;
+}
+
+/* Style all of the divs so that the all of the divs have a width of 19%, centered text, a 2px border and must look like the screenshot below. */
+div {
+    width: 19%;
+    text-align: center;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* When you hover over a div give it a 20px blue border. */
+div:hover {
+    border: 20px solid blue;
+}
+
+/* The .special class should change the font to Cursive and be in all capital letters */
+.special {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+/* The 2nd, 4th, 6th, and 8th divs should have 10px dashed green border and 50px of padding on the top and bottom. */
+div:nth-child(even) {
+    border: 10px dashed green;
+    padding: 50px 0px;
+}
+
+/* The last div should not use Cursive text (use the default) and it should have a yellow background. */
+div:last-child {
+    font-family: inherit;
+    background-color: yellow;
+}
+
